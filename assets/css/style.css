@@ -1,11 +1,16 @@
 body {
 	padding: 0px;
-	font-family: "Proxima Nova";
 }
 
 div {
 	display: block;
 }
+
+section {
+	padding: 40px 0;
+}
+
+.section-header { font-weight: 600; text-align: center; margin-bottom: 40px;}
 
 .popover { max-width: 1200px; }
 .align-left { float: left; }
@@ -167,8 +172,11 @@ div {
 
 
 
-
+.background-education { background-color: rgba(201,246,240,0.5); }
 .background-experiences { background-color: rgba(74,189,172,0.5); }
+.background-abilities { height: 500px; background-color: rgba(201,246,240,0.5); }
+.background-interests { height: 500px; background-color: rgba(74,189,172,0.5); }
+.background-contact { height: 500px; background-color: rgba(201,246,240,0.5); }
 
 .img-ex { margin: 10px 0px; }
 
@@ -180,9 +188,6 @@ div {
 .my-btn-toggle:hover { text-decoration: underline; }
 
 
-.background-abilities { height: 500px; background-color: #FC4A1A; }
-.background-interests { height: 500px; background-color: #F7B733; }
-.background-contact { height: 500px; background-color: #DFDCE3; }
 
 
 @media (max-width: 767px) {
